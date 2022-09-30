@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* HEADER / BANNER */
+#banner-title {
+  font-size: 45px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#title-badge {
+  font-size: 25px;
+}
+
 .calendar {
   border: solid 2px blue;
   
 }
 
 #background {
-  background-image: url("./portfolio_pieces/background_1.jpeg");
-  height: 100vw;
+  background-image: url("./backgrounds/background_2.jpeg");
+  height: 100vh;
+}
+
+.dark-banner {
+  background-color: black;
+  margin-top: -400px;
+  height: 600px;
+  
 }
