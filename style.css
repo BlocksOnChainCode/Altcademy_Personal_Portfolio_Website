@@ -22,7 +22,11 @@
 
 .dark-banner {
   background-color: black;
-  margin-top: -400px;
-  height: 600px;
+  margin-top: -300px;
+  height: 300px;
   
+}
+
+.hover {
+  border-radius: 25px;
 }
