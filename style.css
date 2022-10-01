@@ -10,21 +10,23 @@
   font-size: 25px;
 }
 
-.calendar {
-  border: solid 2px blue;
-  
-}
+
 
 #background {
   background-image: url("./backgrounds/background_2.jpeg");
   height: 100vh;
 }
 
-.dark-banner {
+.dark-banner-main {
   background-color: black;
-  margin-top: -900px;
-  height: 900px;
-  
+  margin-top: -400px;
+  height: 400px; 
+}
+
+.dark-banner-sub {
+  background-color: black;
+  margin-top: -300px;
+  height: 300px; 
 }
 
 .hover {
@@ -44,4 +46,8 @@
 .navigation {
   font-size: 15px;
   font-weight: 600;
+}
+
+#projects {
+  font-size: 25px;
 }
