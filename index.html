@@ -14,10 +14,30 @@
   <link rel="stylesheet" href="./style.css">
   <title>Document</title>
 </head>
-<body>
 
+<!--SCROLLSPY BODY-->
+<body class="" data-bs-spy="scroll" data-bs-target="#navId" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+
+  <nav id="navId" class="navbar px-3 mb-3 justify-content-center">
+    <ul class="nav nav-pills">
+      <li class="nav-item btn btn-outline-warning m-2">
+        <a class="nav-link text-black" href="./index.html">Home</a>
+      </li>
+      <li class="nav-item btn btn-outline-warning m-2">
+        <a class="nav-link text-black" href="#scrollspyHeading1">Portfolio</a>
+      </li>
+      <li class="nav-item btn btn-outline-warning m-2">
+        <a class="nav-link text-black" href="#scrollspyHeading2">About</a>
+      </li>
+      <li class="nav-item btn btn-outline-warning m-2">
+        <a class="nav-link text-black" href="#scrollspyHeading3">Contact</a>
+      </li>
+      
+    </ul>
+  </nav>
+  
   <!--NAVBAR-->
-  <nav class="navbar navbar-expand-lg bg-light">
+  <!--<nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar scroll</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +72,7 @@
         </form>
       </div>
     </div>
-  </nav>
+  </nav>-->
 
   <!--MAIN CONTENT-->
   <div class="container-fluid">
@@ -83,13 +103,14 @@
   </div>
 
   <!--MY PORTFOLIO HEADER-->
-  <div class="container-fluid">
+  <div id="scrollspyHeading1" class="container-fluid">
     <div class="row">
       <div class="col-12 text-center m-4">
         <h2 id="my-portfolio" class="btn btn-lg btn-outline-warning"><i class="fa-solid fa-angles-down fa-5"></i> My Portfolio <i class="fa-solid fa-angles-down"></i></h2>
       </div>
     </div>
   </div>
+
 
   <!--PORTFOLIO PIECES-->
   <div class="container-fluid">
@@ -103,6 +124,130 @@
           </ol>
             <div class="carousel-inner text-center">
               <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="article">
+                      <div class="img-area"><img class="img-fluid border border-3 mb-2 hover" src="./portfolio_pieces/AirBnb_News_Clone.jpg" alt=""></div>
+                      <div class="img-text text-light">
+                        
+                        <div class="pb-3">
+                          <h3>AirBnb Clone
+                            <button class="badge text-bg-secondary"><i class="fa-brands fa-html5"></i>
+                              <i class="fa-brands fa-css3-alt"></i>
+                              <i class="fa-brands fa-bootstrap"></i>
+                              <i class="fa-solid fa-font-awesome"></i></button>
+                          </h3>
+                          
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-solid fa-house fa-2xl"></i> Home</a>
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-brands fa-github fa-2xl"></i> GitHub</a>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="article">
+                      <div class="img-area"><img class="img-fluid border border-3 mb-2 hover" src="./portfolio_pieces/NewsWeek_Clone.jpg" alt=""></div>
+                      <div class="img-text text-light">
+                        <div class="pb-3">
+                          <h3>NewsWeek Clone
+                            <button class="badge text-bg-secondary"><i class="fa-brands fa-html5"></i>
+                              <i class="fa-brands fa-css3-alt"></i>
+                              <i class="fa-brands fa-bootstrap"></i>
+                              <i class="fa-solid fa-font-awesome"></i></button>
+                          </h3>
+                          
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-solid fa-house fa-2xl"></i> Home</a>
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-brands fa-github fa-2xl"></i> GitHub</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="article">
+                      <div class="img-area"><img class="img-fluid border border-3 mb-2 hover" src="./portfolio_pieces/Apple_clone.jpg" alt=""></div>
+                      <div class="img-text text-light">
+                        <div class="pb-3">
+                          <h3>Apple Clone
+                            <button class="badge text-bg-secondary"><i class="fa-brands fa-html5"></i>
+                              <i class="fa-brands fa-css3-alt"></i>
+                              <i class="fa-brands fa-bootstrap"></i>
+                              <i class="fa-solid fa-font-awesome"></i></button>
+                          </h3>
+                          
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-solid fa-house fa-2xl"></i> Home</a>
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-brands fa-github fa-2xl"></i> GitHub</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="article">
+                      <div class="img-area"><img class="img-fluid border border-3 mb-2 hover" src="./portfolio_pieces/AirBnb_News_Clone.jpg" alt=""></div>
+                      <div class="img-text text-light">
+                        
+                        <div class="pb-3">
+                          <h3>AirBnb Clone
+                            <button class="badge text-bg-secondary"><i class="fa-brands fa-html5"></i>
+                              <i class="fa-brands fa-css3-alt"></i>
+                              <i class="fa-brands fa-bootstrap"></i>
+                              <i class="fa-solid fa-font-awesome"></i></button>
+                          </h3>
+                          
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-solid fa-house fa-2xl"></i> Home</a>
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-brands fa-github fa-2xl"></i> GitHub</a>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="article">
+                      <div class="img-area"><img class="img-fluid border border-3 mb-2 hover" src="./portfolio_pieces/NewsWeek_Clone.jpg" alt=""></div>
+                      <div class="img-text text-light">
+                        <div class="pb-3">
+                          <h3>NewsWeek Clone
+                            <button class="badge text-bg-secondary"><i class="fa-brands fa-html5"></i>
+                              <i class="fa-brands fa-css3-alt"></i>
+                              <i class="fa-brands fa-bootstrap"></i>
+                              <i class="fa-solid fa-font-awesome"></i></button>
+                          </h3>
+                          
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-solid fa-house fa-2xl"></i> Home</a>
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-brands fa-github fa-2xl"></i> GitHub</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="article">
+                      <div class="img-area"><img class="img-fluid border border-3 mb-2 hover" src="./portfolio_pieces/Apple_clone.jpg" alt=""></div>
+                      <div class="img-text text-light">
+                        <div class="pb-3">
+                          <h3>Apple Clone
+                            <button class="badge text-bg-secondary"><i class="fa-brands fa-html5"></i>
+                              <i class="fa-brands fa-css3-alt"></i>
+                              <i class="fa-brands fa-bootstrap"></i>
+                              <i class="fa-solid fa-font-awesome"></i></button>
+                          </h3>
+                          
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-solid fa-house fa-2xl"></i> Home</a>
+                          <a href="https://reliable-sherbet-867b17.netlify.app/" class="btn btn-warning"><i class="fa-brands fa-github fa-2xl"></i> GitHub</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="carousel-item">
                 <div class="row">
                   <div class="col-md-4">
                     <div class="article">
@@ -233,7 +378,7 @@
   <div class="dark-banner"></div>
 
   <!--ABOUT-->
-  <div class="container-fluid">
+  <div id="scrollspyHeading2" class="container-fluid">
     <div class="row">
       <div class="col-12 text-center m-4">
         <h2>About</h2>
@@ -246,7 +391,20 @@
         <img class="img-fluid" src="./backgrounds/Placeholder_1.jpeg" alt="">
       </div>
       <div class="col-4">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iure ratione sunt atque id commodi, nemo labore corporis veritatis nam reiciendis ipsam, quaerat culpa consequuntur, sit voluptatibus fugiat ea veniam!</p>
+        <h3>Skillset</h3>
+        <i class="fa-brands fa-html5 fa-2xl"></i>
+        <div class="progress m-4" style="height: 30px">
+          <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> HTML - 60%</div>
+        </div>
+        <div class="progress m-2">
+          <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="progress m-2">
+          <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="progress m-2">
+          <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -256,7 +414,7 @@
     <div class="row"> 
       <div class="col-12 col-md-6">
         <div class="calendar">
-          <!-- Loading stuff -->a
+          <!-- Loading stuff -->
           
         </div>
       </div>
@@ -265,8 +423,10 @@
   
   <!--CONTACT-->
   
-  
-  
+  <!--FOOTER-->
+  <div class="footer">
+    <a href="https://www.freepik.com/free-vector/creative-mini-designers-changing-website-interface-tiny-persons-covering-computer-screen-with-paint-digital-content-flat-vector-illustration-teamwork-marketing-development-concept-banner_24644204.htm#query=website%20development%20banner&position=47&from_view=search#position=47&query=website%20development%20banner">Image by pch.vector</a> on Freepik
+  </div>
   <!--GITHUB CONTRIBUTION HISTORY ONLY PUBLIC?-->
   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
  
