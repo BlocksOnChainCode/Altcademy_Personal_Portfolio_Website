@@ -32,6 +32,16 @@
 }
 
 
-#my-portfolio {
+.my-portfolio {
   font-size: 45px;
+}
+
+#github {
+  border-radius: 10px;
+  border: solid 10px gray;
+}
+
+.navigation {
+  font-size: 15px;
+  font-weight: 600;
 }
