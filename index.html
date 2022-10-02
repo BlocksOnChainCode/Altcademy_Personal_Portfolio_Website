@@ -17,28 +17,35 @@
 
 <body>
 
-  <!--NAVBAR-->
-  <nav class="navbar navbar-expand-lg px-2 mb-3 justify-content-center">
-    <ul class="nav nav-pills">
+  <!--NAVBAR (Semi-Finished)-->
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <li class="nav-item btn btn-outline-warning m-2">
-        <a class="nav-link text-secondary navigation" href="./index.html"><i class="fa-solid fa-house fa-5"></i> Home</a>
-      </li>
-      <li class="nav-item btn btn-outline-warning m-2">
-        <a class="nav-link text-secondary navigation" href="#portfolio"><i class="fa-solid fa-code"></i> Portfolio</a>
-      </li>
-      <li class="nav-item btn btn-outline-warning m-2">
-        <a class="nav-link text-secondary navigation" href="#about"><i class="fa-solid fa-address-card"></i> About</a>
-      </li>
-      <li class="nav-item btn btn-outline-warning m-2">
-        <a class="nav-link text-secondary navigation" href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a>
-      </li>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        
+        <ul class="navbar-nav">
+          <li class="nav-item btn btn-outline-warning m-2">
+            <a class="nav-link text-secondary navigation" href="./index.html"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li class="nav-item btn btn-outline-warning m-2">
+            <a class="nav-link text-secondary navigation" href="#portfolio"><i class="fa-solid fa-code"></i> Portfolio</a>
+          </li>
+          <li class="nav-item btn btn-outline-warning m-2">
+            <a class="nav-link text-secondary navigation" href="#about"><i class="fa-solid fa-address-card"></i> About</a>
+          </li>
+          <li class="nav-item btn btn-outline-warning m-2">
+            <a class="nav-link text-secondary navigation" href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a>
+          </li>
+        </ul>
 
-    </ul>
+      </div>
+    </div>
   </nav>
-  
-  
-
+ 
   <!--MAIN CONTENT-->
   <div class="container-fluid">
     <div class="row">
@@ -305,7 +312,7 @@
       </div>
 
       <div class="col-12 col-md-5">
-        <img class="img-fluid rounded border border-secondary" src="./backgrounds/4748523.jpg" alt="">
+        <img class="img-fluid rounded" src="./backgrounds/4748523.jpg" alt="">
       </div>
       
 
@@ -322,7 +329,7 @@
   </div>
 
   <!--Contact-->
-  <div class="container-fluid w-75">
+  <div id="contact" class="container-fluid w-75">
     <div class="row">
       <div class="col-12">
         <form class="bg-light" id="email-form">
@@ -354,11 +361,16 @@
   <div class="footer">
     <a href="https://www.freepik.com/free-vector/creative-mini-designers-changing-website-interface-tiny-persons-covering-computer-screen-with-paint-digital-content-flat-vector-illustration-teamwork-marketing-development-concept-banner_24644204.htm#query=website%20development%20banner&position=47&from_view=search#position=47&query=website%20development%20banner">Image by pch.vector</a> on Freepik
   </div>
+
+
+
+  <!--SCRIPTS-->
+
   <!--GITHUB CONTRIBUTION HISTORY ONLY PUBLIC?-->
   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
- 
+  
   <script>
-    GitHubCalendar(".calendar", "BlocksOnChainCode");
+    // GitHubCalendar(".calendar", "BlocksOnChainCode");
 
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "BlocksOnChainCode", { responsive: true });
@@ -371,8 +383,7 @@
     }).then(r => r.text())*/
   </script>
   
-  <!--google charts-->
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  
 
   <!--BOOTSTRAP 5-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"> 
@@ -380,6 +391,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"> 
   </script>
 
+  <!--PERSONAL JS-->
   <script src="./main.js"></script>
 </body>
 </html>

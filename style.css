@@ -1,22 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-/* HEADER / BANNER */
-#banner-title {
-  font-size: 45px;
-  font-family: 'Press Start 2P', cursive;
+/*NAVBAR*/
+.navigation {
+  font-size: 15px;
+  font-weight: 600;
 }
 
-#title-badge {
-  font-size: 25px;
-}
-
-
-
-#background {
-  background-image: url("./backgrounds/background_2.jpeg");
-  height: 100vh;
-}
-
+/*DARK BANNERS*/
 .dark-banner-main {
   background-color: black;
   margin-top: -400px;
@@ -29,6 +17,19 @@
   height: 300px; 
 }
 
+/*ABOUT*/
+#github {
+  border-radius: 10px;
+  border: solid 10px gray;
+}
+
+/*CONTACT*/
+#email-form {
+  border-radius: 10px;
+  border: solid 10px gray;
+}
+
+/*OTHER*/
 .hover {
   border-radius: 25px;
 }
@@ -36,19 +37,4 @@
 
 .my-portfolio {
   font-size: 45px;
-}
-
-#github {
-  border-radius: 10px;
-  border: solid 10px gray;
-}
-
-.navigation {
-  font-size: 15px;
-  font-weight: 600;
-}
-
-#email-form {
-  border-radius: 10px;
-  border: solid 10px gray;
 }
