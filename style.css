@@ -6,10 +6,19 @@
 
 /*MAIN CONTENT*/
 
+/*MY PORTFOLIO HEADER*/
+#my-portfolio {
+  font-size: 45px;
+}
 
-
+@media (max-width: 500px) {
+  #my-portfolio {
+    font-size: 25px;
+  }
+}
 
 /*DARK BANNERS*/
+
 .dark-banner-main {
   background-color: black;
   margin-top: -400px;
@@ -20,6 +29,34 @@
   background-color: black;
   margin-top: -300px;
   height: 300px; 
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+  .dark-banner-main {
+    background-color: black;
+    margin-top: -300px;
+    height: 300px; 
+  }
+  
+  .dark-banner-sub {
+    background-color: black;
+    margin-top: -250px;
+    height: 250px; 
+  }
+}
+
+@media (max-width: 500px) {
+  .dark-banner-main {
+    background-color: black;
+    margin-top: -250px;
+    height: 250px; 
+  }
+  
+  .dark-banner-sub {
+    background-color: black;
+    margin-top: -200px;
+    height: 200px; 
+  }
 }
 
 /*ABOUT*/
@@ -40,9 +77,7 @@
 }
 
 
-.my-portfolio {
-  font-size: 45px;
-}
+
 
 a {
   color: inherit;
