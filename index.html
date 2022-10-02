@@ -153,7 +153,17 @@
   <div class="container-fluid d-none d-md-block text-center">
     <div class="row">
       <div class="col-12 text-center m-2">
-        <h3 class="btn btn-lg btn-outline-warning"> Projects <i class="fa-solid fa-angles-right"></i><i class="fa-solid fa-angles-right"></i></h3>
+        <h3 class="btn btn-lg btn-outline-warning"> 
+          <i class="fa-solid fa-angles-right"></i>
+          <i class="fa-solid fa-angles-right"></i>
+          <i class="fa-solid fa-angles-right"></i>
+          <i class="fa-solid fa-angles-right"></i>
+          Projects 
+          <i class="fa-solid fa-angles-right"></i>
+          <i class="fa-solid fa-angles-right"></i>
+          <i class="fa-solid fa-angles-right"></i>
+          <i class="fa-solid fa-angles-right"></i>
+        </h3>
       </div>
     </div>
   </div>
@@ -247,15 +257,13 @@
 
   
   <!--ABOUT-->
-  <div id="about" class="container-fluid">
+  <div id="about" class="container-fluid mt-4">
     <div class="row">
 
-      <div class="col-12 text-center m-4">
-        <h3 class="btn btn-lg btn-outline-warning d-none d-md-inline-block"><i class="fa-solid fa-angles-left"></i> About <i class="fa-solid fa-angles-right"></i></h3>  
-      </div>
+     
 
       <div class="col-12 col-md-6 col-lg-4">
-        <h3 class="text-center"><button class="btn btn-lg btn-secondary text-center">About Me</button></h3>
+        <h2 class="text-center"><button class="btn btn-lg btn-secondary text-center">About Me</button></h2>
         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reprehenderit facilis amet molestias est libero sint eum eius, recusandae, ea veritatis magni placeat iusto dolorum quos veniam perspiciatis quidem officia.</p>
       </div>
 
@@ -298,9 +306,8 @@
   <div class="container-fluid text-center p-5">
     <div class="row">
       
-
       <div class="col-12 col-lg-7 d-none d-md-block">
-        <h2>My Github Activity</h2>
+        <h2 class="text-center"><button class="btn btn-lg btn-secondary text-center">My Github Activity</button></h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
           Nobis amet temporibus quo tenetur architecto, voluptate reprehenderit enim unde inventore. 
           Iste ex dolorum distinctio voluptatem rerum doloribus? Id sint ipsam quo.
@@ -316,16 +323,6 @@
         <img class="img-fluid rounded" src="./backgrounds/4748523.jpg" alt="">
       </div>
       
-
-    </div>
-  </div>
-
-  <!--CONTACT HEADER-->
-  <div class="container-fluid text-center">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="btn btn-lg btn-outline-warning"><i class="fa-solid fa-angles-left"></i> Get In Touch<i class="fa-solid fa-angles-right"></i></h2>
-      </div>
     </div>
   </div>
 
@@ -333,25 +330,30 @@
   <div id="contact" class="container-fluid w-75">
     <div class="row">
       <div class="col-12">
-        <form class="bg-light" id="email-form">
-          
-          <div class="p-3">
-            <label for="exampleFormControlInput1" class="form-label">Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
 
+        <!--Working contact form using FormSubmit (https://formsubmit.co/)-->
+        <form action="https://formsubmit.co/c80d5334953e795e821b0c3f7ec05ee8" method="POST" class="bg-light" id="email-form">        
+          <h2 class="text-center pt-3"><button class="btn btn-lg btn-secondary text-center">Send me a message!</button></h2>
           <div class="p-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input class="form-control" type="text" name="Name" placeholder="Full Name" required>
           </div>
-
           <div class="p-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <input class="form-control" type="email" name="Email" placeholder="Email" required> 
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-
+          <div class="p-3">
+            <textarea class="form-control" name="Message" placeholder="Message" rows="4" required></textarea> 
+          </div>
+          <div class="p-3">
+            <button type="submit" class="btn btn-lg btn-success">Send</button>
+            <button onclick="window.location.href='https://be.linkedin.com';" class="btn btn-secondary">
+              <i class="fa-brands fa-linkedin fa-2x"></i>
+            </button>
+            <button onclick="window.location.href='https://github.com/BlocksOnChainCode';" class="btn btn-secondary">
+              <i class="fa-brands fa-github fa-2x"></i>
+            </button>
+          </div>  
         </form>
+
       </div>
     </div>
   </div>
@@ -362,8 +364,6 @@
   <div class="footer">
     <a href="https://www.freepik.com/free-vector/creative-mini-designers-changing-website-interface-tiny-persons-covering-computer-screen-with-paint-digital-content-flat-vector-illustration-teamwork-marketing-development-concept-banner_24644204.htm#query=website%20development%20banner&position=47&from_view=search#position=47&query=website%20development%20banner">Image by pch.vector</a> on Freepik
   </div>
-
-
 
   <!--SCRIPTS-->
 
